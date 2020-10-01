@@ -1,8 +1,9 @@
 import cv2
 import time
+import VideoToHaar
 # ---- 攝影機攝取影像尺寸
-_CAMERA_WIDTH = 1280
-_CAMERA_HEIGHT = 720
+_CAMERA_WIDTH = 640
+_CAMERA_HEIGHT = 480
 
 # ---- 儲存影像檔名，格式
 video_name = 'Video_'
